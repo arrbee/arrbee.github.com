@@ -17,6 +17,12 @@ body {
   font: 13.34px 'Roboto Slab', serif;
   font-size: small;
   text-align: center;
+
+  background: url(/assets/bg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -114,7 +120,7 @@ ul.posts span {
   margin-right: 3em;
 }
 
-.site .footer .contact a {
+.site .contact a {
   color: #8877CC;
   text-decoration: none;
 }
